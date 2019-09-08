@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const endpoint = 'http://localhost:4000/quote';
+const endpoint = 'quote';
 
 const App: React.FC = () => {
   const [quote, setQuote] = useState();

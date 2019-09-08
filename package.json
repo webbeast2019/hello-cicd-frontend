@@ -10,10 +10,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
-    "typescript": "3.6.2"
+    "typescript": "3.6.2",
+    "express": "^4.16.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_ENV=production node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
